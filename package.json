@@ -1,0 +1,27 @@
+{
+  "name": "solyos-xpto-server",
+  "version": "0.1.0",
+  "description": "Servico de controle de clientes da XPTO",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test",
+    "migrate": "make migrate"
+  },
+  "keywords": [
+    "solyos",
+    "teste",
+    "xpto"
+  ],
+  "author": "Roger Cruz <spark.crz@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^1.8.10"
+  },
+  "dependencies": {
+    "http": "0.0.0",
+    "mysql": "^2.11.1",
+    "restify": "^4.1.1",
+    "sequelize": "^3.24.3",
+    "sha1": "^1.1.1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "globalDevDependencies": {
+    "require": "registry:dt/require#2.1.20+20160316155526"
+  },
+  "globalDependencies": {
+    "restify": "registry:dt/restify#2.0.0+20160726153409",
+    "validator": "registry:dt/validator#4.5.1+20160316155526"
+  },
+  "dependencies": {
+    "es6-promise": "registry:npm/es6-promise#3.0.0+20160723033700"
+  }
+}
