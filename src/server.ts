@@ -1,8 +1,8 @@
 import * as restify from 'restify';
 import { AuthHandler } from './auth/handler';
 import { CustomerHandler } from './customers/handler';
-import { normal, restrict } from './handlers';
 import { UserHandler } from './users/handler';
+import { normal, restrict } from './handlers';
 
 export class Server {
   private srv: restify.Server;

@@ -3,7 +3,8 @@ var service_1 = require('./auth/service');
 var authService = new service_1.AuthService();
 function normal(action) {
     return function (req, res, next) {
-        action(req, res, next);
+        action(req, res);
+        next();
     };
 }
 exports.normal = normal;

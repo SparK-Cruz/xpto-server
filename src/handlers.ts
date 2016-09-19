@@ -6,7 +6,8 @@ var authService = new AuthService();
 
 export function normal(action: Function){
   return function(req: restify.Request, res: restify.Response, next: restify.Next): void{
-    action(req, res, next);
+    action(req, res);
+    next();
   };
 }
 export function restrict(action: Function){

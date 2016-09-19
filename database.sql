@@ -13,7 +13,7 @@ create table users (
 create table customers (
   id int(10) unsigned not null auto_increment primary key,
   name varchar(120) not null,
-  birth timestamp null,
+  birth date null,
   federalId varchar(11) not null unique,
   email varchar(120) not null unique,
   phone varchar(11) not null,
